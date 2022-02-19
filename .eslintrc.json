@@ -17,6 +17,12 @@
 		"sourceType": "module",
 		"ecmaFeatures": {
 			"jsx": true
+		},
+		"requireConfigFile": false,
+		"babelOptions": {
+			"presets": [
+				"@babel/preset-react"
+			]
 		}
 	},
 	"env": {
@@ -28,5 +34,6 @@
 		"react": {
 			"version": "detect"
 		}
-	}
+	},
+	"parser": "@babel/eslint-parser"
 }
